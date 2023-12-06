@@ -15,13 +15,13 @@
 
 
     <!-- Bootstrap core CSS -->
-    <link href="pages/docs/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="docs/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
-    <link href="style/style.css" rel="stylesheet">
+    <link href="../style/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="pages/docs/features/features.css" rel="stylesheet">
+    <link href="docs/features/features.css" rel="stylesheet">
 </head>
 
 <body class="bg-light">
@@ -117,7 +117,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
                     </li>
                 </ul>
                 <h4 class="navbar-text animate-charcter">
@@ -129,17 +129,17 @@
 
     <div class="nav-scroller bg-body shadow-sm">
         <nav class="nav" aria-label="Secondary navigation">
-            <a class="nav-link active" aria-current="page" href="">Dashboard</a>
-            <a class="nav-link" href="pages/document.php">
+            <a class="nav-link active" aria-current="page" href="../index.php">Dashboard</a>
+            <a class="nav-link" href="">
                 Documents
             </a>
-            <a class="nav-link" href="pages/a_propos.php">A propos</a>
+            <a class="nav-link" href="a_propos.php">A propos</a>
         </nav>
     </div>
     <!--end navbar-->
     <main class="container">
         <div class="d-flex align-items-center p-3 my-3 text-white bg-danger rounded shadow-sm">
-            <img class="me-2" src="pages/images/logoC21.png" alt="LOGO" width="68" height="58">
+            <img class="me-2" src="images/logoC21.png" alt="LOGO" width="68" height="58">
             <div class="lh-1">
                 <h1 class="h4 mb-0 text-white lh-1">CIDST</h1>
                 <small>Le Centre d'Information et de Documentation Scientifique et Technique Etablissement Public a
@@ -151,7 +151,7 @@
         </div>
         <div class="row align-items-md-stretch">
             <div class="col-md-6">
-                <div class="h-100 p-5 text-white bg-dark rounded-3">
+                <div class="h-100 p-5 text-white bg-success rounded-3">
                     <h1 class="display-4 fst-italic">Bienvenue, CIDST</h1>
                     <p class="lead my-3">Le CIDST dispose d’antennes régionales au niveau de Mahajanga, Toliara, Fianarantsoa, Toamasina. 
                       Elles facilitent l’accès, l’échange et la diffusion de l’information auprès du public et particulièrement des acteurs du développement.</p>
@@ -247,7 +247,7 @@
         <!-- end mission -->
 
     </main>
-    <script src="pages/docs/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="docs/assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
